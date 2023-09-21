@@ -1,0 +1,17 @@
+<%- include("header.ejs") %>
+<span class="centre"><%= date1 %></span>
+<main>
+<% for( var i = 0; i < task.length; i++){ %>
+    <div><input type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </div>
+<% } %>
+    <div class="container centre">
+        <form action="/pwork" method="post">
+        <input type="text" id="lname" name="item" placeholder="New-Task"><br><br>
+        <input type="submit" id="btn" value="Add">
+        </form>      
+    </div>
+</main>
+
+<%- include("footer.ejs") %>
+
+

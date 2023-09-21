@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .link{
+        font-size: 0.8rem;
+    }
+    main{
+        height: 90vh;
+    }
+    footer{
+        height: 11vh;
+    }
+}
+

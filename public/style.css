@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #8ecae6; 
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav{
+    background-color: #023047;
+    height: 8vh;
+}
+nav ul{
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.link{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: #023047;
+    color: white;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will center the content vertically */
+}
+span{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    align-items: flex-start;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#lname {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+#btn {
+    padding: 20px 21px;
+    background-color: #007bff;
+    border-radius: 50%; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+ .container {
+    text-align: center; /* Center the contents horizontally */
+}
+div{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
